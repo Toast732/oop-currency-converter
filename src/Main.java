@@ -114,6 +114,10 @@ public class Main {
         return getDesiredCurrencyFromUser(currencies, message);
     }
 
+    /*
+        Prompts the user to input a double, and then returns the user's input. Automatically repropts if input was not
+        valid.
+    */
     static double getDoubleFromUser(String message){
 
         // Create the scanner
