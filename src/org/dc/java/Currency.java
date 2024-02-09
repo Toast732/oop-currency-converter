@@ -14,7 +14,7 @@ public interface Currency {
     // Gets the currencies' symbol (ie: $). Defaulted, as many currencies will use the same symbol.
     default String getSymbol(){
         return "$";
-    };
+    }
 
     // Convert the specified currency to this currency.
     default double convertCurrency(Currency sourceCurrency, double sourceAmount){
